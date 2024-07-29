@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snake Game</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="game-details">
+            <!-- <i class="fa fa-gear setting-btn" style="cursor: pointer;"></i>
+            <div class="setting-box">
+                <div class="element-box">
+                <label for="default">Set Default</label>
+                <input type="checkbox" id="default">
+            </div>
+
+            <div class="element-box">
+                <label for="detail-color">Set Detail Box Color : </label>
+                <input type="color" id="detail-color">
+            </div>
+
+                <div class="element-box">
+                <label for="boadr-color">Set Play Board Color : </label>
+                <input type="color" id="board-color">
+            </div>
+
+                <div class="element-box">
+                <label for="snake-color">Set Snake Color : </label>
+                <input type="color" id="snake-color">
+            </div>
+
+                <div class="element-box">
+                <label for="food-color">Set Food Color : </label>
+                <input type="color" id="food-color">
+            </div>
+
+                <div class="element-box">
+                <select id="speed">
+                    <option value="125">Choose Speed</option>
+                    <option value="100">Low</option>
+                    <option value="125">Medium</option>
+                    <option value="50">High</option>
+                </select>
+                </div>
+
+                <div class="element-box">
+                    <button id="">Set Changes</button>
+                </div>
+            </div> -->
+            <span class="score">Score is : 0</span>
+            <span class="high-score">High Score is : 30</span>
+        </div>
+        <div class="game-board"></div>
+        <div class="control">
+            <i data-key="ArrowLeft" class="fa fa-solid fa fa-arrow-left-long"></i>
+            <i data-key="ArrowUp" class="fa fa-solid fa fa-arrow-up-long"></i>
+            <i data-key="ArrowDown" class="fa fa-solid fa fa-arrow-down-long"></i>
+            <i data-key="ArrowRight" class="fa fa-solid fa fa-arrow-right-long"></i>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
